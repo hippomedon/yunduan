@@ -1,0 +1,90 @@
+#ad
+{
+  width: 996px;
+  height: 490px;
+  overflow: hidden;
+  margin-left:200px;
+  position: relative;
+}
+#ad ul
+{
+list-style: none;
+position: absolute;
+
+}
+#ad ul li
+{
+float: left;
+width: 996px;
+height: 490px;
+position: relative;
+}
+#ad ul li img{
+width: 996px;
+height: 490px;
+}
+.slideshortcut a
+{
+color: #000000;
+text-decoration: none;
+background-color: #fff;
+display: block;
+position: absolute;
+z-index: 500;
+top: 210px;
+width: 50px;
+height: 50px;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+opacity: 0;
+}
+.slideshortcut a:hover
+{
+color: #000000;
+text-decoration: none;
+}
+.prev
+{
+
+left: 200px;
+}
+.next
+{
+left: 1145px;
+}
+.jiaodiandiv
+{
+position: absolute;
+z-index: 200;
+top: 425px;
+left: 42%
+}
+.jiaodiandiv ul
+{
+list-style: none;
+}
+.jiaodiandiv ul li
+{
+width: 30px;
+height: 30px;
+margin-left: 10px;
+float: left;
+border: 1px solid #B7B7B7;
+background-color: #B7B7B7;
+border-radius:15px;
+text-align: center;
+}
+#selectli
+{
+background-color: #FF4400;
+}
+.jiaodiandiv li:hover
+{
+cursor: pointer;
+}
+.jiaodiandiv span
+{
+font-size: 20px;
+line-height: 30px;
+}
